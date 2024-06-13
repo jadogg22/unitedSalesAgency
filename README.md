@@ -6,6 +6,8 @@ This website is being created for the sole purpose of make the lives of mike and
 
 1. Setup the website 
 - [] Create the main navigation bar
+- [X] create the mockup of the main page
+- [X] Create the basic functonality of the carosel
 - [] Create a very nice looking carosel for the main page
 - [] Create a nice looking card for the quick links.
 - [] finish with the rest of the main paige
