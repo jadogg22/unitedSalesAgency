@@ -1,6 +1,6 @@
 # Stage 1: Build Stage
 # Use an official Node.js runtime as a parent image
-FROM node:14 as build
+FROM node:22 as build
 
 # Set the working directory in the container
 WORKDIR /app
@@ -19,7 +19,7 @@ RUN npm run build
 
 # Stage 2: Production Stage
 # Use an official lightweight Node.js 14 image
-FROM node:14-alpine
+FROM node:22-alpine
 
 # Set the working directory in the container
 WORKDIR /app
