@@ -34,7 +34,7 @@ function App() {
 
   const caroselData = [ 
     {
-      imgUrl: 'https://us-east-2-production10-vihive-20210401235309755500000002.s3.amazonaws.com/import-files/brandworksgroup/assets/jpg-251_L_2.jpg?1715054274',
+      imgUrl: 'https://www.roxy.com/cdn/shop/files/ERJKD03469_MLN0_LS-1_jpg.jpg?v=1712352090&width=825',
       title: 'Roxy Apparel',
     },
     {
@@ -50,7 +50,7 @@ function App() {
       title: 'DC Shoes',
     },
     {
-      imgUrl: 'https://us-east-2-production1-hive-20190501031443711100000002.s3.amazonaws.com/import-files/tlg/assets/jpg-251-RoxySwim_M_01.jpg?1714064791',
+      imgUrl: 'https://www.downdays.eu/wp-content/uploads/2020/12/Roxy-On-The-Snow-Collection-Header.jpg',
       title: 'Roxy Swim',
     },
     {
