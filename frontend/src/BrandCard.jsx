@@ -1,5 +1,4 @@
 import React from 'react';
-
 const BrandCard = ({ imageUrl, title, linkUrl }) => {
   return (
     <div className="relative overflow-hidden rounded-lg group">

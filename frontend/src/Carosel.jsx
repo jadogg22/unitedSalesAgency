@@ -1,7 +1,7 @@
 import React, { useState } from "react"; 
 
 const Carousel = ({ children }) => {
-    const [currentIndex, setCurrentIndex] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(1);
     const childrenCount = React.Children.count(children);
   
     const goToPrevious = () => {
