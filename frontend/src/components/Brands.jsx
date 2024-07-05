@@ -8,7 +8,7 @@ const Brands = () => {
       title: 'ROXY',
       subBrands: [
         { imageUrl: '/src/assets/roxySwim.jpeg', title: 'ROXY SWIM', linkUrl: 'https://subbrand1-1.com' },
-        { imageUrl: '/src/assets/roxySwim.jpeg', title: 'ROXY SWIM', linkUrl: 'https://subbrand1-1.com' },
+        { imageUrl: ROXYDRESS, title: 'ROXY SWIM', linkUrl: 'https://subbrand1-1.com' },
         { imageUrl: '/src/assets/roxySwim.jpeg', title: 'ROXY SWIM', linkUrl: 'https://subbrand1-1.com' },
         { imageUrl: '/src/assets/roxySwim.jpeg', title: 'ROXY SWIM', linkUrl: 'https://subbrand1-1.com' },
       ],
