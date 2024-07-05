@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <> 
       <div className="relative">
-        <img src={bannerImage} alt="Banner" className="w-full h-64 object-cover" />
+        <img src={bannerImage} alt="Banner" className="w-full h-64 sm:h-80 md:h-128 lg:h-144 xl:h-256 object-cover" />
         <div className="absolute inset-0 bg-black bg-opacity-10 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-white text-4xl font-bold mb-4">Welcome to Our Site</h1>
