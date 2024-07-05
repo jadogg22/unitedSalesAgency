@@ -1,24 +1,27 @@
 import React from 'react';
 import BrandCard from '../BrandCard';
 import ROXYDRESS from '/src/assets/ROXY_Dresses.webp';
+import ROXYSWIM from '/src/assets/roxySwim.jpeg';
+import DCSHOES from '/src/assets/DCSHOES.webp';
+import ROXYSHOES from '/src/assets/ROXYSHOES.webp';
 
 const Brands = () => {
   const brandsData = [
     {
       title: 'ROXY',
       subBrands: [
-        { imageUrl: '/src/assets/roxySwim.jpeg', title: 'ROXY SWIM', linkUrl: 'https://subbrand1-1.com' },
-        { imageUrl: ROXYDRESS, title: 'ROXY SWIM', linkUrl: 'https://subbrand1-1.com' },
-        { imageUrl: '/src/assets/roxySwim.jpeg', title: 'ROXY SWIM', linkUrl: 'https://subbrand1-1.com' },
-        { imageUrl: '/src/assets/roxySwim.jpeg', title: 'ROXY SWIM', linkUrl: 'https://subbrand1-1.com' },
+        { imageUrl: ROXYDRESS, title: 'ROXY APPAREL', linkUrl: 'https://brandworksgroup.elasticsuite.com/#explore,catalogList' },
+        { imageUrl: ROXYSWIM, title: 'ROXY SWIM', linkUrl: 'https://tlg.elasticsuite.com/#explore' },
+        { imageUrl: ROXYSHOES, title: 'ROXY FOOTWEAR', linkUrl: 'https://tlg.elasticsuite.com/#explore' },
+        { imageUrl: ROXYDRESS, title: 'ROXY APPAREL', linkUrl: 'https://brandworksgroup.elasticsuite.com/#explore,catalogList' },
       ],
     },
     {
       title: 'DC SHOES',
       subBrands: [
-        { imageUrl: '/src/assets/DCSHOES.webp', title: 'DC SHOES', linkUrl: 'https://subbrand2-1.com' },
-        { imageUrl: '/src/assets/DCSHOES.webp', title: 'DC SHOES', linkUrl: 'https://subbrand2-1.com' },
-        { imageUrl: '/src/assets/DCSHOES.webp', title: 'DC SHOES', linkUrl: 'https://subbrand2-1.com' },
+        { imageUrl: DCSHOES, title: 'DC SHOES', linkUrl: 'dcshoes.com' },
+        { imageUrl: DCSHOES, title: 'DC SHOES', linkUrl: 'dcshoes.com' },
+        { imageUrl: DCSHOES, title: 'DC SHOES', linkUrl: 'dcshoes.com' },
       ],
     },
     {

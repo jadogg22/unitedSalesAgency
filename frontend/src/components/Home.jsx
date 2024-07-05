@@ -41,18 +41,18 @@ const Home = () => {
 
           <BrandCard
             imageUrl={roxyDress}
-            title="ROXY Dresses"
-            linkUrl="#" />
+            title="ROXY APPAREL"
+            linkUrl="https://brandworksgroup.elasticsuite.com/#explore,catalogList" />
 
             <BrandCard
             imageUrl={roxySwim}
             title="ROXY SWIM"
-            linkUrl="#" />
+            linkUrl="https://tlg.elasticsuite.com/#explore" />
 
             <BrandCard
             imageUrl={roxyShoes}
-            title="ROXY SHOES"
-            linkUrl="#" />
+            title="ROXY FOOTWEAR"
+            linkUrl="https://tlg.elasticsuite.com/#explore" />
 
             <BrandCard
             imageUrl={dcShoes}
