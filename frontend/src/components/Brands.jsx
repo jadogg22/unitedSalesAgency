@@ -48,12 +48,12 @@ const Brands = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8 bg-gray-100">
+    <div className="container mx-auto px-4 py-8 bg-gray-50">
       <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">Our Brands</h1>
       {brandsData.map((brand, index) => (
         <div key={index} className="mb-12">
-          <h2 className="text-3xl font-semibold mb-4 text-gray-700">{brand.title}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <h2 className="text-3xl font-bold mb-4 text-gray-800">{brand.title}</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {brand.subBrands.map((subBrand, subIndex) => (
               <BrandCard 
                 key={subIndex} 
