@@ -6,6 +6,7 @@ import roxyDress from '/src/assets/ROXY_Dresses.webp';
 import roxySwim from '/src/assets/roxySwim.jpeg';
 import roxyShoes from '/src/assets/ROXYSHOES.webp';
 import dcShoes from '/src/assets/DCSHOES.webp';
+import UpcomingEvents from '../UpcomingEvents';
 
 import { useNavigate } from 'react-router-dom';
 
@@ -62,6 +63,7 @@ const Home = () => {
       </div>
       <div className="container mx-auto px-4 py-8 bg-zinc-200">
       <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">Upcoming Events</h1>
+        <UpcomingEvents />
       </div>
 
     </>
