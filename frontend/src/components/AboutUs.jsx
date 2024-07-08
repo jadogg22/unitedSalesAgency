@@ -1,4 +1,5 @@
 import React from 'react';
+import mike from '/src/assets/mike.jpg';
 
 const AboutUs = () => {
   return (
@@ -10,7 +11,7 @@ const AboutUs = () => {
           <div className="md:flex-shrink-0">
             <img 
               className="h-full w-full object-cover md:w-64" 
-              src="https://via.placeholder.com/400x600" 
+              src={mike} 
               alt="Founders"
             />
           </div>
